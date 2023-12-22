@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.section-1 {
+    background-color: white;
+}
+
+.section-2 {
+    background-color: #e5e7eb;
+}
+
+.section-3 {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+}
