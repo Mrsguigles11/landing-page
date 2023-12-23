@@ -10,7 +10,7 @@ body {
 .hero {
     background-color: #1F2937;
     color: #f9faf8;
-    /*padding: 10px 200px;*/
+    padding: 20px 220px 0;
 }
 
 .header {
@@ -20,6 +20,12 @@ body {
     font-weight: bolder;
 }
 
+.container {
+    display: flex;
+    padding: 100px 0;
+    gap: 50px;
+}
+
 ul {
     display: flex;
     margin: 0;
@@ -27,6 +33,40 @@ ul {
     gap: 20px;
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 0;
+}
+
+.placeholder {
+    background-color: #757c86;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 250px;
 }
 
 .section-1 {
