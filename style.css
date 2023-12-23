@@ -73,6 +73,16 @@ button {
     background-color: white;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 40px 0;
+}
+
 .section-2 {
     background-color: #e5e7eb;
 }
