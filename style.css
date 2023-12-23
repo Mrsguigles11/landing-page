@@ -69,6 +69,8 @@ button {
     height: 250px;
 }
 
+
+
 .section-1 {
     background-color: white;
 }
@@ -112,9 +114,43 @@ button {
     margin-top: 10px;
 }
 
+
+
 .section-2 {
     background-color: #e5e7eb;
+    padding: 70px 0;
 }
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 p {
+    color: #4a525e;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    max-width: 700px;
+    margin: 0;
+}
+
+.thor-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 70px 0 0;
+}
+
+.thor {
+    text-align: end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    width: 700px;
+}
+
 
 .section-3 {
     background-color: white;
